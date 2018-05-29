@@ -118,7 +118,7 @@ input[type="color"],
   border-bottom: 1px dashed #fff;
   font-size: 16px;
 }
-.logo::after {
+.logo:after {
   position: absolute;
   content: "";
   background: #5a82b8;
@@ -192,6 +192,7 @@ input[type="color"],
   text-transform: uppercase;
   box-shadow: 0 0 5px #476BA0;
   border: 1px solid #727272;
+  -webkit-transition: .5s;
   transition: .5s;
 }
 .call-box a.btn-box:hover {
@@ -229,6 +230,7 @@ input[type="color"],
 }
 .for-padding li a {
   color: #3863a1;
+  -webkit-transition: .5s;
   transition: .5s;
 }
 .for-padding li:hover a {
@@ -308,7 +310,7 @@ p.for-font {
 .footer-header a {
   color: #b3bdce;
 }
-.footer-header .logo::after {
+.footer-header .logo:after {
   background: #b3bdce;
 }
 
@@ -319,6 +321,7 @@ p.for-font {
   font-size: 16px;
   text-transform: uppercase;
   padding: 20px;
+  -webkit-transition: .5s;
   transition: .5s;
   border: 1px solid #727272;
   box-shadow: 0 0 5px #476BA0;
