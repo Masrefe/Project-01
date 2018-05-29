@@ -1,0 +1,78 @@
+/*******************************
+	All Responsive Code
+*******************************/
+/* Medium layout: 1200px, */
+
+@media only screen and (min-width:992px) and (max-width: 1200px) {
+.map img {
+	height: 390px;
+}
+.single-section {
+	height: 200px;
+}
+}
+/* Tablet layout: 768px, */
+@media only screen and (min-width:768px) and (max-width: 991px) {
+.container{margin-top: 0}
+.header-content {
+	display: none;
+}
+.resume-tag-list {
+	margin-top: 40px;
+}
+.map img {
+	height: 390px;
+}
+.single-section {
+	height: 265px;
+}
+}
+
+/* Mobile layout: 320px, */
+@media only screen and (max-width:767px)  {
+.container{margin-top: 0}
+.header-content {
+	display: none;
+}
+
+.resume-tag-list {
+	margin-top: 40px;
+}
+.call-action p {
+	width: 100%;
+	float: none;
+}
+.call-box {
+	width: 100%;
+	margin-left: 0;
+}
+.single-item {
+	width: 100%;
+	height: auto;
+}
+.border-left {
+	border-left: none;
+}
+.single-section {
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid #e2ebf5;
+}
+.single-item {
+	border-bottom: 2px solid #e2ebf5;
+}
+.right-bottom {
+	text-align: left;
+	margin-left: 30px;
+}
+.resume-right {
+	margin-top: 0;
+}
+}
+
+/* wide mobile layout: 480px, */
+@media only screen and (min-width:480px) and (max-width: 767px) {
+.resume-right {
+	margin-top: 90px;
+}
+}
